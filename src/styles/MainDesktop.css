@@ -1,0 +1,104 @@
+@media screen and (min-width: 800px) {
+  .container {
+    width: 76%;
+  }
+
+  .hero {
+    text-align: left;
+    justify-content: left;
+  }
+
+  .hero .text {
+    max-width: 50%;
+    margin: 0 10%;
+  }
+
+  .hero .media-sosial {
+    justify-content: left;
+  }
+
+  .hero .screenshot {
+    display: block;
+  }
+
+  .navbar {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .navbar .btn-back {
+    display: none;
+  }
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-self: end;
+    line-height: 60px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .navbar li a {
+    display: block;
+    font-size: 1rem;
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+    padding: 0 15px;
+  }
+
+  .navbar li.actived a,
+  .navbar li:hover a,
+  .navbar li:focus a {
+    color: #fff;
+  }
+
+  .stick-content {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .col-max-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .service.flex-end {
+    align-self: flex-end;
+  }
+
+  .service {
+    flex-direction: unset;
+    align-items: unset;
+    padding: 30px;
+  }
+
+  .content {
+    width: 45%;
+  }
+
+  .image {
+    width: 40%;
+  }
+
+  .content h2 {
+    font-size: 30px;
+  }
+
+  footer {
+    padding: 40px 100px;
+    flex-wrap: nowrap;
+  }
+
+  .bottom-links,
+  .find-on {
+    width: 40%;
+    text-align: left;
+  }
+}

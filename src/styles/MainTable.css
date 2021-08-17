@@ -1,0 +1,43 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 80%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  .card {
+    width: 260px;
+    margin: 10px auto;
+  }
+
+  .data {
+    flex-direction: column;
+  }
+  .data b {
+    width: auto;
+  }
+  .articel {
+    width: 70%;
+  }
+
+  .service {
+    width: 80vw;
+  }
+  .content {
+    width: 50%;
+  }
+  .content h2 {
+    font-size: 24px;
+  }
+
+  footer {
+    padding: 40px 50px;
+    flex-wrap: wrap;
+  }
+
+  .bottom-links p {
+    font-size: 14px;
+  }
+}
